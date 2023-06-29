@@ -16,11 +16,10 @@
     }
 
     &__title {
-        text-transform: uppercase;
         font-weight: normal;
         margin-left: 16px;
         margin-right: 16px;
-        border-top: 5px solid variaveis.$corTexto;
+        border-top: 3px solid variaveis.$corTexto;
     }
 
     &__image {

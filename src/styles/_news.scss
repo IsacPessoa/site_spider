@@ -1,7 +1,14 @@
+@use 'variaveis';
+
 .news {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
+
+    &__title {
+        grid-column: span 2;
+        text-align: center;
+        border: 3px solid variaveis.$corTexto;
+    }
 
     &__content {
         max-width: 760px;
@@ -10,7 +17,7 @@
         margin-right: 100px;
         margin-left: 100px;
         padding: 24px 24px;
-        color: white;
+        color: variaveis.$corTexto;
         font-size: 24px;
 
         p {

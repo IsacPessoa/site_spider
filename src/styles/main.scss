@@ -18,17 +18,20 @@ body {
     font-size: 45px;
     color: variaveis.$corTexto;
     justify-content: center;
-    text-align: left;
     padding: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
     font-family: variaveis.$fonteTitulos;
+    text-transform: uppercase;
 }
 
 .text {
     color: variaveis.$corTexto;
+    text-align: justify;
     font-size: 30px;
     padding: 24px;
     margin-left: 18px;
-    line-height: 2.0;
+    line-height: 1.5;
 }
 
 .images {
