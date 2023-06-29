@@ -11,6 +11,8 @@
         &__text {
             margin-left: 45px;
             text-align: justify;
+            padding: 24px;
+            margin-right: 24px;
         }
 
     }
@@ -20,10 +22,12 @@
         margin-left: 16px;
         margin-right: 16px;
         border-top: 3px solid variaveis.$corTexto;
+        border-radius: 10px;
     }
 
     &__image {
         height: 600px;
+        margin-left: 40px;
     }
 
 }
