@@ -3,16 +3,25 @@
 .movies {
     margin-bottom: 70px;
 
+    
     &__content {
         display: flex;
         color: variaveis.$corTexto;
         align-items: center;
+        
+        @media (max-width: 768px) {
+            display: block;
+        }
+    
 
         &__text {
             margin-left: 45px;
             text-align: justify;
             padding: 24px;
             margin-right: 24px;
+            @media (max-width: 768px) {
+                padding: 0;
+            }
         }
 
     }
@@ -28,6 +37,12 @@
     &__image {
         height: 600px;
         margin-left: 40px;
+
+        @media (max-width: 768px) {
+            margin-left: 0;
+            padding: 12px;
+            height: auto;
+        }    
     }
 
 }

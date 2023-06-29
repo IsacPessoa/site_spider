@@ -13,6 +13,12 @@
 
 body {
     background-image: url('../images/background.jpeg');
+
+    @media (max-width: 768px) {
+        overflow-x: hidden;
+    }
+
+
 }
 
 .title {
@@ -25,6 +31,9 @@ body {
     font-family: variaveis.$fonteTitulos;
     text-transform: uppercase;
     color: variaveis.$corTitulos;
+    @media (max-width: 768px) {
+        margin: 10px;    
+    }
 }
 
 .text {
@@ -33,6 +42,10 @@ body {
     font-size: 30px;
     margin-left: 18px;
     line-height: 1.5;
+
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
 }
 
 .images {
