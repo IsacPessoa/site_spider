@@ -2,6 +2,7 @@
 @use 'news';
 @use 'movies';
 @use 'variaveis';
+@use 'footer';
 
 * {
     margin: 0;
@@ -23,6 +24,7 @@ body {
     margin-right: 16px;
     font-family: variaveis.$fonteTitulos;
     text-transform: uppercase;
+    color: variaveis.$corTitulos;
 }
 
 .text {
