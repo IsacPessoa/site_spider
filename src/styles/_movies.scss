@@ -1,0 +1,30 @@
+@use 'variaveis';
+
+.movies {
+    margin-bottom: 70px;
+
+    &__content {
+        display: flex;
+        color: variaveis.$corTexto;
+        align-items: center;
+
+        &__text {
+            margin-left: 45px;
+            text-align: justify;
+        }
+
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-weight: normal;
+        margin-left: 16px;
+        margin-right: 16px;
+        border-top: 5px solid variaveis.$corTexto;
+    }
+
+    &__image {
+        height: 600px;
+    }
+
+}

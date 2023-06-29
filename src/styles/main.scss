@@ -1,18 +1,39 @@
 @use 'header';
+@use 'news';
+@use 'movies';
+@use 'variaveis';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: variaveis.$fontePrincipal;
 }
 
 body {
     background-image: url('../images/background.jpeg');
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 890px;
-    width: 100%;
+.title {
+    font-size: 45px;
+    color: variaveis.$corTexto;
     justify-content: center;
+    text-align: left;
+    padding: 24px;
+    font-family: variaveis.$fonteTitulos;
+}
+
+.text {
+    color: variaveis.$corTexto;
+    font-size: 30px;
+    padding: 24px;
+    margin-left: 18px;
+    line-height: 2.0;
+}
+
+.images {
+    width: 100%;
+    border-radius: 4px;
+    margin-left: 40px;
+    margin-top: 18px;
 }
